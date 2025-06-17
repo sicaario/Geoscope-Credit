@@ -77,21 +77,20 @@ GeoScore = (FootTraffic × 30%) + (Safety × 20%) + (Competition × 25%) + (Acce
 ### Installation
 
 1. **Clone the repository**
-   ```bash
+   ```
    git clone https://github.com/sicaario/geoscope-credit.git
    cd geoscope-credit
    ```
 
 2. **Install dependencies**
-   ```bash
+   ```
    npm install --legacy-peer-deps
    ```
 3. **Environment setup**
    
    Create `.env.local` in the root directory:
-   ```env
+   ```
    GOOGLE_MAPS_API_KEY=your_google_maps_api_key_here
-   NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=${GOOGLE_MAPS_API_KEY}
    ```
 4. **Google Maps API setup**
    
